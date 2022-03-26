@@ -1,18 +1,23 @@
-.flex_f {
+.flex_f, .flex_r, .flex_c {
     display: flex;
+}
+.flex_f, td {
     border: 2px solid black;
+}
+.flex_d, table {
+    border: 1px solid black;
+}
+.flex_f {
     flex-wrap: wrap;
     height: 468px;
     width: 468px; 
 }
 table {
     background-color: white;
-    
 }
 .flex_d {
     height: 50px;
     width: 50px;
-    border: 1px solid black;
     background-color: bisque;
     text-align: center;
     line-height: 50px;/*line-height leidžia nustatyt eilutės aukšyį šiuo atveju raidžių ir skaičių vertikalą centre*/
@@ -20,24 +25,15 @@ table {
 table {
     height: 416px;
     width: 416px;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-td {
-    height: px;
-    width: px;
-    border: 2px solid black;
-    
+    border-collapse: collapse;/*kaip pavadinimas indikuoja leidžia apjungt sieneles/krastines*/
 }
 .flex_c {
-    display: flex;
     flex-direction: row;
 }
 .flex_r {
-    display: flex;
     flex-direction: column;
 }
 tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
     background-color: black;
 }
-
+/*bandžiau koda apsivalyt tai nežinau ar gavos gerai*/
