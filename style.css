@@ -36,4 +36,10 @@ table {
 tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
     background-color: black;
 }
+td {
+    height: 46px;
+    width: 46px;
+    text-align: center;
+    font-size: 34px;
+}
 /*bandžiau koda apsivalyt tai nežinau ar gavos gerai*/
