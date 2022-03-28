@@ -34,7 +34,7 @@ table {
     flex-direction: column;
 }
 tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
-    background-color: black;
+    background-color: rgb(119, 117, 117);
 }
 td {
     height: 46px;
