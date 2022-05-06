@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.flex_f, .flex_r, .flex_c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex_f, td {
+  border: 2px solid black;
+}
+
+.flex_d, table {
+  border: 1px solid black;
+}
+
+.flex_f {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 468px;
+  width: 468px;
+}
+
+table {
+  background-color: white;
+}
+
+.flex_d {
+  height: 50px;
+  width: 50px;
+  background-color: bisque;
+  text-align: center;
+  line-height: 50px;
+  /*line-height leidžia nustatyt eilutės aukšyį šiuo atveju raidžių ir skaičių vertikalą centre*/
+}
+
+table {
+  height: 416px;
+  width: 416px;
+  border-collapse: collapse;
+  /*kaip pavadinimas indikuoja leidžia apjungt sieneles/krastines*/
+}
+
+.flex_c {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex_r {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even) {
+  background-color: #777575;
+}
+
+td {
+  height: 46px;
+  width: 46px;
+  text-align: center;
+  font-size: 34px;
+}
+
+.w {
+  color: #dfdddd;
+}
+
+.b {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
